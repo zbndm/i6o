@@ -31,10 +31,10 @@ export {
 export { DetaAdapter } from "https://deno.land/x/grammy_storages@v2.0.0/deta/src/mod.ts";
 
 // ghc.deno.dev/
-export {
-  I18n,
-  type I18nFlavor,
-} from "https://ghc.deno.dev/dcdunkan/i18n-2.0@2.0/src/mod.ts";
+// export {
+//   I18n,
+//   type I18nFlavor,
+// } from "https://ghc.deno.dev/dcdunkan/i18n-2.0@2.0/src/mod.ts";
 
 // esm.sh/
 export {

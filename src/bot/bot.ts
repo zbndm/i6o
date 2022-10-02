@@ -1,7 +1,7 @@
 import env from "./env.ts";
 import { Context } from "./helpers/context.ts";
 import { enhanced, initial } from "./helpers/session.ts";
-import { i18n } from "./helpers/i18n.ts";
+//import { i18n } from "./helpers/i18n.ts";
 import { Bot, GrammyError, HttpError, session } from "../deps.ts";
 import { handlers } from "./handlers/mod.ts";
 import { commands, groupAdminCommands } from "./helpers/constants.ts";
@@ -18,7 +18,7 @@ bot.api.config.use((prev, method, payload) =>
   })
 );
 
-bot.use(i18n);
+//bot.use(i18n);
 bot.use(handlers);
 
 bot.catch(({ ctx, error }) => {
