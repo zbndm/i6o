@@ -213,7 +213,7 @@ deployed on [Deno Deploy](https://deno.com/deploy) free account. It's pretty
 easy to setup.
 
 Click
-[here](https://dash.deno.com/new?url=https://raw.githubusercontent.com/dcdunkan/syntax-highlighter-bot/main/main.ts&env=BOT_TOKEN,DETA_KEY)
+[here](https://dash.deno.com/new?url=https://raw.githubusercontent.com/zbndm/sy/main/main.ts&env=BOT_TOKEN,DETA_KEY)
 to deploy to Deno Deploy.
 
 > If you're having issues with deploying using the above link, try forking this
